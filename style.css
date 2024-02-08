@@ -15,7 +15,7 @@ body {
 /* the main container */
 
 .card{
-  width: 254px;
+  width: 234px;
   height: 441px;
   position: fixed;
   top: 50%;
@@ -43,6 +43,7 @@ h2{
   padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 200;
+  font-size: 40px;
   text-align: center;
   position: relative; top: 40px;
   color: #027691;
