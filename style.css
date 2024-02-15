@@ -18,7 +18,7 @@ body {
 
 .card{
   /* background-image: url('assets/background.png'); */
-  width: 234px;
+  width: 235px;
   height: 441px;
   position: fixed;
   top: 50%;
@@ -26,7 +26,7 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  box-shadow: 2px 5px 15px 0px #de090994;
   background-color:rgb(255, 255, 255);
   border-radius: 30px;
 }
@@ -36,9 +36,9 @@ h1{
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 600;
   text-align: center;
-  font-size: 37px;
+  font-size: 36px;
   position: relative; top: 40px;
-  color: #27a59c;
+  color: #ff0000;
 }
 
 h2{
@@ -50,7 +50,7 @@ h2{
   text-align: center;
   position: relative; 
   top: 40px;
-  color: #027691;
+  color: #000000;
 } 
 
 h3{
@@ -65,7 +65,7 @@ h3{
 }
 
 a:link, a:visited {
-  color: #0b8577;
+  color: #020202;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
