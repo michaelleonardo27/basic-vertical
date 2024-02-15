@@ -8,7 +8,7 @@
 
 body {
     background-color: gray;
-    background-image: url('assets/card\ background.png');
+    background-image: url('assets/mylogo background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,7 +38,7 @@ h1{
   text-align: center;
   font-size: 36px;
   position: relative; top: 40px;
-  color: #ff0000;
+  color: #a53838;
 }
 
 h2{
@@ -72,5 +72,5 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: rgb(0, 151, 206);
+  color: rgb(36, 112, 139);
 }
