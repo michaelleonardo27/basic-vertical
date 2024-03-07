@@ -1,3 +1,9 @@
+@font-face{
+  font-family: "Guerrilla";
+  src:url(assets/ProtestGuerrilla-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
 *{
     padding: 0;
     margin: 0;
@@ -7,8 +13,8 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/mylogo background.png');
+    background-color: rgb(255, 255, 255);
+    background-image: url('assets/mylogo1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,14 +32,14 @@ body {
   transform: translate(-50%, -50%);
   margin: 0 auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #de090994;
+  box-shadow: 1cap 5px 15px 0px #c336364e;
   background-color:rgb(255, 255, 255);
   border-radius: 30px;
 }
 
 h1{
   margin-bottom: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Guerrilla",sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 36px;
@@ -42,14 +48,14 @@ h1{
 }
 
 h2{
-  margin-top: 0px;
+  margin-top: 15px;
   padding-top: 0px;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Guerrilla",sans-serif;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   position: relative; 
-  top: 40px;
+  top: 30px;
   color: #000000;
 } 
 
@@ -57,20 +63,28 @@ h3{
   margin-top: 0px;
   padding-top: 0px;
   font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 15px;
   text-align: center;
   position: relative; 
-  top: 170px;
+  top: 210px;
 }
 
 a:link, a:visited {
   color: #020202;
-  padding: 0px 0px;
+  padding: 10px 0px;
   text-align: center;
   text-decoration: none;
+  
 }
 
 a:hover {
   color: rgb(36, 112, 139);
+}
+.instagram {
+  width:45%;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  transform: translate(60%,60%);
 }
