@@ -13,6 +13,7 @@
 
 
 body {
+    font-family: "Guerrilla";
     background-color: rgb(255, 255, 255);
     background-image: url('assets/mylogo1.png');
     background-repeat: no-repeat;
